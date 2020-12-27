@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dbo="http://dbpedia.org/ontology/">
+
+    <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Tom_Hopper">
+        <foaf:name>Tom Hopper</foaf:name>
+        <foaf:age>35</foaf:age>
+        <dbo:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-01-28</dbo:birthDate>
+        <dbo:activeYearsStartYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2007</dbo:activeYearsStartYear>
+        <dbo:birthPlace>Coalville, Leicestershire, Inggris</dbo:birthPlace>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#film1">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2007</dbo:releaseYear>
+        <rdfs:label>Saxon</rdfs:label>
+        <dbo:role>Fishmonger</dbo:role>  
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#film2">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2009</dbo:releaseYear>
+        <rdfs:label>Tormented</rdfs:label>
+        <dbo:role>Marcus</dbo:role>  
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#film3">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2013</dbo:releaseYear>
+        <rdfs:label>Cold</rdfs:label>
+        <dbo:role>Tom</dbo:role>  
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#film4">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2014</dbo:releaseYear>
+        <rdfs:label>Northmen : A Viking Saga</rdfs:label>
+        <dbo:role>Asbjörn</dbo:role>  
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#film5">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2016</dbo:releaseYear>
+        <rdfs:label>Kill Ratio</rdfs:label>
+        <dbo:role>James Henderson</dbo:role>  
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#film6">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2018</dbo:releaseYear>
+        <rdfs:label>I Feel Pretty</rdfs:label>
+        <dbo:role>Grant LeClair</dbo:role>  
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#film7">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2019</dbo:releaseYear>
+        <rdfs:label>Terminator : Dark Fate</rdfs:label>
+        <dbo:role>Hadrell</dbo:role>  
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#film8">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2021</dbo:releaseYear>
+        <rdfs:label>The Hitman's Wife Bodyguard</rdfs:label>
+        <dbo:role>Magnusson</dbo:role>  
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#film9">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2021</dbo:releaseYear>
+        <rdfs:label>Resident Evil</rdfs:label>
+        <dbo:role>Albert Wesker</dbo:role>  
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#film10">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>TBA</dbo:releaseYear>
+        <rdfs:label>SAS : Red Notice</rdfs:label>
+        <dbo:role>Declan</dbo:role>  
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#series1">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2007</dbo:releaseYear>
+        <rdfs:label>Casualty</rdfs:label>
+        <dbo:role>Hugh Mullen</dbo:role>
+        <dbo:notes>Episode : Stitch</dbo:notes>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#series2">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2008</dbo:releaseYear>
+        <rdfs:label>Doctors</rdfs:label>
+        <dbo:role>Josh Mullen</dbo:role>
+        <dbo:notes>Episode : Don't Try This at Home</dbo:notes>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#series3">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2008</dbo:releaseYear>
+        <rdfs:label>Kingdom</rdfs:label>
+        <dbo:role>Soldier</dbo:role>
+        <dbo:notes>1 episode</dbo:notes>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#series4">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2010</dbo:releaseYear>
+        <rdfs:label>Doctor Who</rdfs:label>
+        <dbo:role>Jeff</dbo:role>
+        <dbo:notes>Episode : The Eleventh Hour</dbo:notes>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#series5">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2010–2012</dbo:releaseYear>
+        <rdfs:label>Merlin</rdfs:label>
+        <dbo:role>Sir Percival</dbo:role>
+        <dbo:notes>Pemeran tamu (seri 3); Pemeran berulang (seri 4–5)</dbo:notes>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#series6">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2012</dbo:releaseYear>
+        <rdfs:label>Good Cop</rdfs:label>
+        <dbo:role>Andy Stockwell</dbo:role>
+        <dbo:notes>Pemeran utama</dbo:notes>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#series7">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2014–2017</dbo:releaseYear>
+        <rdfs:label>Black Sails</rdfs:label>
+        <dbo:role>William Manderly</dbo:role>
+        <dbo:notes>Pemeran utama</dbo:notes>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#series8">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2016</dbo:releaseYear>
+        <rdfs:label>Barbarians Rising</rdfs:label>
+        <dbo:role>Arminius</dbo:role>
+        <dbo:notes>Episode : Rebellion</dbo:notes>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#series9">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2017</dbo:releaseYear>
+        <rdfs:label>Game of Thrones</rdfs:label>
+        <dbo:role>Dickon Tarly</dbo:role>
+        <dbo:notes>4 episode</dbo:notes>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#series10">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2019–sekarang</dbo:releaseYear>
+        <rdfs:label>The Umbrella Academy</rdfs:label>
+        <dbo:role>Luther Hargreeves / Number One</dbo:role>
+        <dbo:notes>Pemeran utama</dbo:notes>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.umbrellaacademy.com/1/#series11">
+        <dbo:starring rdf:resource="https://en.wikipedia.org/wiki/Tom_Hopper"/>
+        <dbo:releaseYear>2020</dbo:releaseYear>
+        <rdfs:label>Robot Chicken</rdfs:label>
+        <dbo:role>John Rolfe, Solid Snake (Pengisi Suara)</dbo:role>
+        <dbo:notes>Episode : Gracie Purgatory in: That's How You Get Hemorrhoids</dbo:notes>
+    </rdf:Description>
+</rdf:RDF>
